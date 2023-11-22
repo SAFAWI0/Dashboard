@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.line {
+  border-bottom: 1px solid black;
+  height: 60px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+td {
+  border: 1px solid #000;
+  padding: 12px;
+  text-align: center;
+}
+th {
+  background-color: #a0c8cf;
+  color: #fff;
+  border: 1px solid #000;
+  height: 42px;
+  padding: 12px;
+}
+.margin {
+  margin-top: 50px;
+}
+.delete {
+  color: red;
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+}
+.edit {
+  color: blue;
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .content p{
+  margin: 12px;
+}
+header .content img{
+width: 48px;
+}
